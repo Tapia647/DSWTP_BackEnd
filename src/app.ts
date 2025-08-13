@@ -1,5 +1,6 @@
 import express from 'express'
-import { Character } from './character.js'
+import { Especie }  from './especie/especie.entity.js'
+
 const app = express() //app es el resultado de ejecutare la funcion express
 //get obtener rss
 //get /api/name/:id  obtener id con id = :id
@@ -8,20 +9,9 @@ const app = express() //app es el resultado de ejecutare la funcion express
 //put y patch modificar rss
 // cada rss tiene que tener unsa url --> /api/name-de-rss/
 
-const characters = [
-  new Character(
-    'Darth Vader',
-    'Sith',
-    10,
-    100,
-    20,
-    10,
-    ['Lightsaber', 'Death Star'],
-    'a02b91bc-3769-4221-beb1-d7a3aeba7dad'
-  ),
-]
-app.get('/api/characters', (req, res) =>{
-  res.json( characters )
+
+app.get('/api/especie', (req, res) =>{
+  res.json( Especie )
 })
 
 

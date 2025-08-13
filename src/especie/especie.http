@@ -1,0 +1,2 @@
+### Obtener todas las especies
+GET http://localhost:3000/api/especies
