@@ -1,7 +1,7 @@
 import { Entity, Property, Cascade, ManyToOne, Collection, Rel} from "@mikro-orm/core"
 import { BaseEntity } from "../shared/db/baseEntity.entity.js"
 import { Especie } from "./especie.entity.js"
-
+//preguntar por el type a en property
 @Entity()
 export class Animal extends BaseEntity {
 
