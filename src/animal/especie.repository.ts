@@ -1,3 +1,4 @@
+/*
 import { Repository } from "../shared/repository.js";
 import { Especie } from "./especie.entity.js";
 
@@ -9,7 +10,7 @@ const especies = [
 ]
 
 export class EspecieRepository implements Repository<Especie>{
-  public findAll(): Especie[] /*| undefined*/{
+  public findAll(): Especie[] /*| undefined*//*{
     return especies
   }
   public findOne(item: {id: string}): Especie | undefined {
@@ -39,3 +40,4 @@ export class EspecieRepository implements Repository<Especie>{
     return undefined
   }
 }
+*/

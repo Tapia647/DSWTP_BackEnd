@@ -1,4 +1,5 @@
-import mysql from 'mysql2/promise'
+//borrar es para cuando no se usa mikro-orm
+/*import mysql from 'mysql2/promise'
 
 export const connection = mysql.createPool({
     host: process.env.DB_HOST || 'localhost',
@@ -13,3 +14,4 @@ export const connection = mysql.createPool({
     enableKeepAlive: true,
     keepAliveInitialDelay: 0,
 })
+    */
