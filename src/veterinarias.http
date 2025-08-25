@@ -1,0 +1,25 @@
+## obtener todas las veterinarias
+GET http://localhost:3000/api/veterinarias
+
+### obtener una veterinaria por ID
+GET http://localhost:3000/api/veterinarias/1dd0e96a-a5a9-4434-8fec-5d6ad3be73c9
+
+### crear una nueva veterinaria
+POST http://localhost:3000/api/veterinarias
+content-type: application/json
+
+{
+    "nombre": "Veterinaria Patitas Felices",
+    "direccion": "Calle Falsa 123",
+    "telefono": "123456789"
+}
+//PUT recurso completo e idempotente
+### actualizar una veterinaria existente (PUT para modificar todo /PATCH para modificar parcialmente) por lo gral put
+PUT http://localhost:3000/api/veterinarias/f8c4adab-b115-4fe8-b8fc-6abfcfa8216d
+content-type: application/json
+
+{
+    "nombre": "Veterinaria Actualizada",
+    "direccion": "Calle Falsa 123 Actualizada",
+    "telefono": "987654321"
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"veterinaria.js","sourceRoot":"","sources":["../src/veterinaria.ts"],"names":[],"mappings":"AAAA,OAAO,MAAM,MAAM,aAAa,CAAA,CAAC,+CAA+C;AAChF,MAAM,OAAO,WAAW;IACpB,YACW,MAAc,EACd,SAAiB,EACjB,QAAgB,EAChB,KAAI,MAAM,CAAC,UAAU,EAAE;QAHvB,WAAM,GAAN,MAAM,CAAQ;QACd,cAAS,GAAT,SAAS,CAAQ;QACjB,aAAQ,GAAR,QAAQ,CAAQ;QAChB,OAAE,GAAF,EAAE,CAAqB;IAC/B,CAAC;CACP"}
