@@ -13,9 +13,9 @@ content-type: application/json
     "direccion": "Calle Falsa 123",
     "telefono": "123456789"
 }
-//PUT recurso completo e idempotente
+//PUT recurso completo e idempotente    
 ### actualizar una veterinaria existente (PUT para modificar todo /PATCH para modificar parcialmente) por lo gral put
-PUT http://localhost:3000/api/veterinarias/f8c4adab-b115-4fe8-b8fc-6abfcfa8216d
+PUT http://localhost:3000/api/veterinarias/a568a379-afec-4453-8de4-2be198dd292a
 content-type: application/json
 
 {
@@ -23,3 +23,15 @@ content-type: application/json
     "direccion": "Calle Falsa 123 Actualizada",
     "telefono": "987654321"
 }
+
+//PATCH recurso parcial y no idempotente 
+### modificar parcialmente una veterinaria existente por id 
+PATCH http://localhost:3000/api/veterinarias/e4001cf3-add9-4a1b-a23f-d96314746a81
+content-type: application/json
+
+{
+    "nombre": "Veterinaria ActualizadaPATCH"
+}
+
+### eliminar una veterinaria por ID
+DELETE http://localhost:3000/api/veterinarias/c6664f59-4fe3-4c42-99fd-f18b7cac45f2
